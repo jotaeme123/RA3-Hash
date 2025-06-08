@@ -4,7 +4,7 @@ import java.io.*;
 public class Main {
     static int[] tamanhos = {1000, 10000, 100000};
     static int[] tamanhosDados = {1_000_000, 5_000_000, 20_000_000};
-    static long[] seeds = {42L, 43L, 44L};
+    static long[] seeds = {42L, 42L, 42L};
     static FuncaoHash[] funcoes = {
         new HashResto(), new HashMultiplicacao(), new HashDobramento()
     };
